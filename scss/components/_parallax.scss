@@ -1,0 +1,16 @@
+.parallax-container {
+  position: relative;
+
+  .parallax-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    &.right {
+      left: auto;
+      right: 0;
+      bottom: auto;
+      top: 0;
+    }
+  }
+}
